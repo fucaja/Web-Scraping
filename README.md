@@ -56,3 +56,56 @@ API y web scraping son enfoques diferentes para obtener datos de la web, y cada 
 - **Web scraping:** Puede ser más lento y demandante de recursos, ya que implica descargar y analizar el contenido completo de las páginas web.
 
 En resumen, mientras que las APIs proporcionan un acceso estructurado y más confiable a datos en línea, el web scraping puede ser una solución cuando no hay una API disponible o para obtener datos específicos de una página web. Sin embargo, es crucial respetar los términos de servicio y las leyes aplicables al realizar web scraping.
+
+# Conceptos básico sobre la web
+
+
+- **URL (Uniform Resource Locator):** Una URL es la dirección única que se utiliza para localizar un recurso en la web. 
+
+- **Protocolo HTTP/HTTPS:** Hypertext Transfer Protocol (HTTP) y su versión segura HTTPS (Hypertext Transfer Protocol Secure) son protocolos de comunicación utilizados para la transmisión de información en la web. HTTPS cifra la comunicación para mayor seguridad.
+
+- **Servidor web:** Un servidor web es un software que responde a las solicitudes de los navegadores, entregando páginas web al cliente. Algunos servidores web populares son Apache, Nginx e IIS.
+
+- **Dominio:** Un dominio es una identificación alfanumérica única asociada con una dirección IP en internet. Los dominios son utilizados en las URL para identificar sitios web. Por ejemplo, "ejemplo.com" es un dominio.
+
+### HTTP status codes
+
+Son indicadores numéricos que se devuelven en las respuestas de las solicitudes HTTP para proporcionar información sobre el estado de la solicitud al cliente. Los códigos más comunes son:
+
+**1xx (Respuestas informativas):**
+
+- 100 Continue: La solicitud ha sido recibida y el servidor espera que el cliente continúe con la solicitud.
+
+**2xx (Respuestas satisfactorias):**
+
+- 200 OK: La solicitud ha sido exitosa. El significado exacto puede depender del método de solicitud utilizado.
+
+- 201 Created: La solicitud ha sido exitosa y ha resultado en la creación de un nuevo recurso.
+
+- 204 No Content: La solicitud ha sido exitosa, pero no hay contenido para enviar en la respuesta.
+
+**3xx (Redirecciones):**
+
+- 301 Moved Permanently: La página solicitada ha sido trasladada permanentemente a otra ubicación.
+
+- 302 Found (o 303 See Other): La página solicitada ha sido trasladada temporalmente a otra ubicación.
+
+**4xx (Errores del cliente):**
+
+- 400 Bad Request: La solicitud no pudo ser entendida o contiene parámetros inválidos.
+
+- 401 Unauthorized: La autenticación es necesaria y ha fallado o no se ha proporcionado.
+
+- 403 Forbidden: El servidor entendió la solicitud, pero se niega a autorizarla.
+
+- 404 Not Found: El recurso solicitado no se encuentra en el servidor.
+
+**5xx (Errores del servidor):**
+
+- 500 Internal Server Error: Un error genérico del servidor. Indica que algo salió mal en el servidor.
+
+- 501 Not Implemented: El servidor no puede cumplir con la solicitud. Este código se genera cuando el servidor no reconoce el método de solicitud.
+
+- 503 Service Unavailable: El servidor no está listo para manejar la solicitud. Comúnmente se utiliza cuando el servidor está en mantenimiento o sobrecargado.
+
+![Descripción de la imagen](.\DOM-model.svg)
