@@ -108,4 +108,4 @@ Son indicadores numéricos que se devuelven en las respuestas de las solicitudes
 
 - 503 Service Unavailable: El servidor no está listo para manejar la solicitud. Comúnmente se utiliza cuando el servidor está en mantenimiento o sobrecargado.
 
-![Descripción de la imagen](.\DOM-model.svg)
+<image src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/1200px-DOM-model.svg.png" width=50%>
