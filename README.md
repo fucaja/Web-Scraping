@@ -108,7 +108,6 @@ Son indicadores numéricos que se devuelven en las respuestas de las solicitudes
 
 - 503 Service Unavailable: El servidor no está listo para manejar la solicitud. Comúnmente se utiliza cuando el servidor está en mantenimiento o sobrecargado.
 
-<<<<<<< HEAD
 # Document Object Model (DOM)
 
 Es una representación jerárquica de la estructura de un documento HTML o XML. El DOM es esencial en la programación web, ya que proporciona una interfaz estructurada y orientada a objetos que permite a los programas y scripts manipular la estructura, el estilo y el contenido de un documento web de manera dinámica. En otras palabras, el DOM actúa como una interfaz de programación que permite a los desarrolladores interactuar y manipular los elementos de una página web utilizando lenguajes de programación como JavaScript.
@@ -145,6 +144,4 @@ Crea un árbol de análisis a partir del código fuente de la página.
 
 <image src="https://miro.medium.com/v2/resize:fit:1400/0*ETFzXPCNHkPpqNv_.png" width=50%>
 
-=======
 <image src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/1200px-DOM-model.svg.png" width=50%>
->>>>>>> bf84a1fd8d2aecafb7a2da506d4ecc809f328469
