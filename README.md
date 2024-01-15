@@ -108,4 +108,39 @@ Son indicadores numéricos que se devuelven en las respuestas de las solicitudes
 
 - 503 Service Unavailable: El servidor no está listo para manejar la solicitud. Comúnmente se utiliza cuando el servidor está en mantenimiento o sobrecargado.
 
-![Descripción de la imagen](.\DOM-model.svg)
+# Document Object Model (DOM)
+
+Es una representación jerárquica de la estructura de un documento HTML o XML. El DOM es esencial en la programación web, ya que proporciona una interfaz estructurada y orientada a objetos que permite a los programas y scripts manipular la estructura, el estilo y el contenido de un documento web de manera dinámica. En otras palabras, el DOM actúa como una interfaz de programación que permite a los desarrolladores interactuar y manipular los elementos de una página web utilizando lenguajes de programación como JavaScript.
+
+Algunas características clave del DOM son:
+
+Árbol de nodos: La estructura del DOM se organiza como un árbol de nodos, donde cada elemento HTML en la página es representado por un nodo en el árbol.
+
+Nodos: Cada parte de un documento HTML (como elementos, atributos, texto) es un nodo en el DOM. Los nodos pueden tener relaciones padre-hijo, hermano-hermano, etc.
+
+Manipulación dinámica: Los desarrolladores pueden utilizar el DOM para agregar, eliminar o modificar elementos y atributos en una página web después de que la página ha cargado. Esto permite la creación de aplicaciones web interactivas y dinámicas.
+
+Interactividad: Eventos como clics de ratón, teclas presionadas o cambios en el contenido pueden desencadenar acciones que modifican el DOM. Esto permite respuestas interactivas a las acciones del usuario.
+
+En resumen, el DOM es una interfaz que permite a los desarrolladores web acceder y manipular la estructura y contenido de una página web. Es fundamental en la programación web moderna y es utilizado extensamente para crear aplicaciones interactivas y dinámicas.
+
+
+<image src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/1200px-DOM-model.svg.png" width=50%>
+
+# Flujo de trabajo
+
+- Pedimos la información de la página al servidor (HTTP request)
+
+- Parseamos el HTML (u otro formato) que recibamos
+
+- Procesamos la información y la guardamos
+
+
+### Web Scraping con Python y BeautifulSoup
+
+Beautiful Soup es una biblioteca de Python que facilita el web scraping al proporcionar herramientas para extraer información de páginas HTML o XML. 
+
+Crea un árbol de análisis a partir del código fuente de la página.
+
+<image src="https://miro.medium.com/v2/resize:fit:1400/0*ETFzXPCNHkPpqNv_.png" width=50%>
+
